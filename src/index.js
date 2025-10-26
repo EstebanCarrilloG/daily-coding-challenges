@@ -356,3 +356,8 @@ console.log(styleText("25-10-2025 - Complementary DNA"), {
   testCase: input.complementaryDNA,
   output: challenge.complementaryDNA(input.complementaryDNA),
 });
+//26-10-2025 - Duration Formatter
+console.log(styleText("26-10-2025 - Duration Formatter"), {
+  testCase: input.format,
+  output: challenge.format(input.format),
+});
