@@ -161,6 +161,11 @@ console.log(styleText("06-09-2025 - Matrix Rotate"), {
   testCase: input.rotate,
   output: challenge.rotate(input.rotate),
 });
+// 07-09-2025 - Roman Numeral Parser
+console.log(styleText("07-09-2025 - Roman Numeral Parser"), {
+  testCase: input.parseRomanNumeral,
+  output: challenge.parseRomanNumeral(input.parseRomanNumeral),
+});
 // 09-09-2025 - Unique characters.
 console.log(styleText("09-09-2025 - Unique characters"), {
   testCase: input.allUnique,

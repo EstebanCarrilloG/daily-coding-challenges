@@ -46,6 +46,8 @@ export const rotate = [
   [4, 5, 6],
   [7, 8, 9],
 ];
+export const parseRomanNumeral = "MMXXV";
+
 export const allUnique = "hola";
 export const costToFill = { tankSize: 20, fuelLevel: 0, pricePerGallon: 4.0 };
 export const numberOfPhotos = { photoSizeMb: 3.5, hardDriveSizeGb: 750 };
