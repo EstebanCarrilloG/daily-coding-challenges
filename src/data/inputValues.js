@@ -52,6 +52,7 @@ export const arrayDiff = {
   arr1: ["I", "like", "freeCodeCamp"],
   arr2: ["I", "like", "rocks"],
 };
+export const reverseSentence = "I like freeCodeCamp";
 
 export const allUnique = "hola";
 export const costToFill = { tankSize: 20, fuelLevel: 0, pricePerGallon: 4.0 };

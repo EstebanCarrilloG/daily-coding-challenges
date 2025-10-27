@@ -181,6 +181,11 @@ console.log(styleText("10-09-2025 - Array Diff"), {
   testCase: input.arrayDiff,
   output: challenge.arrayDiff(input.arrayDiff.arr1, input.arrayDiff.arr2),
 });
+// 11-09-2025 - Reverse Sentence
+console.log(styleText("11-09-2025 - Reverse Sentence"), {
+  testCase: input.reverseSentence,
+  output: challenge.reverseSentence(input.reverseSentence),
+});
 // 18-09-2025 - Fill The Tank.
 console.log(styleText("18-09-2025 - Fill The Tank"), {
   testCase: input.costToFill,
