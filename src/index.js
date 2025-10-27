@@ -166,6 +166,11 @@ console.log(styleText("07-09-2025 - Roman Numeral Parser"), {
   testCase: input.parseRomanNumeral,
   output: challenge.parseRomanNumeral(input.parseRomanNumeral),
 });
+//08-09-2025 - Acronym Builder
+console.log(styleText("08-09-2025 - Acronym Builder"), {
+  testCase: input.buildAcronym,
+  output: challenge.buildAcronym(input.buildAcronym),
+});
 // 09-09-2025 - Unique characters.
 console.log(styleText("09-09-2025 - Unique characters"), {
   testCase: input.allUnique,

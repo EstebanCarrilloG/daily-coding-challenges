@@ -47,6 +47,7 @@ export const rotate = [
   [7, 8, 9],
 ];
 export const parseRomanNumeral = "MMXXV";
+export const buildAcronym = "Search Engine Optimization";
 
 export const allUnique = "hola";
 export const costToFill = { tankSize: 20, fuelLevel: 0, pricePerGallon: 4.0 };
