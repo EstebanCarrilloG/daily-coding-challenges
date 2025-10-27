@@ -203,6 +203,11 @@ console.log(styleText("19-09-2025 - Photo Storage"), {
     input.numberOfPhotos.hardDriveSizeGb
   ),
 });
+// 22-09-2025 - Digits vs Letters
+console.log(styleText("22-09-2025 - Digits vs Letters"), {
+  testCase: input.digitsOrLetters,
+  output: challenge.digitsOrLetters(input.digitsOrLetters),
+});
 // 24-09-2025 - Perfect square.
 console.log(styleText("24-09-2025 - Perfect square"), {
   testCase: input.isPerfectSquare,

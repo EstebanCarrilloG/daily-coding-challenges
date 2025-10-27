@@ -11,6 +11,7 @@ export * from "./10.js";
 export * from "./11.js";
 export * from "./18.js";
 export * from "./19.js";
+export * from "./22.js";
 export * from "./24.js";
 export * from "./25.js";
 export * from "./26.js";

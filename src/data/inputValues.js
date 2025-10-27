@@ -57,6 +57,8 @@ export const reverseSentence = "I like freeCodeCamp";
 export const allUnique = "hola";
 export const costToFill = { tankSize: 20, fuelLevel: 0, pricePerGallon: 4.0 };
 export const numberOfPhotos = { photoSizeMb: 3.5, hardDriveSizeGb: 750 };
+export const digitsOrLetters = "a1b2c3d";
+
 export const isPerfectSquare = 9;
 export const secondLargest = [1, 2, 3, 4, 4, 4];
 export const speeding = { speeds: [58, 50, 60, 55], limit: 55 };
