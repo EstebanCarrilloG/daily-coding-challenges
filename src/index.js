@@ -361,3 +361,8 @@ console.log(styleText("26-10-2025 - Duration Formatter"), {
   testCase: input.format,
   output: challenge.format(input.format),
 });
+//27-10-2025 - Integer Sequence
+console.log(styleText("27-10-2025 - Integer Sequence"), {
+  testCase: input.sequence,
+  output: challenge.sequence(input.sequence),
+});

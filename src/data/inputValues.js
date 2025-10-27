@@ -106,3 +106,4 @@ export const dive = {
 };
 export const complementaryDNA = "GGCTTACGATCGAAG";
 export const format = 99999;
+export const sequence = 10;
