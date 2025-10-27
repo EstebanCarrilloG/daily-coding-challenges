@@ -48,6 +48,10 @@ export const rotate = [
 ];
 export const parseRomanNumeral = "MMXXV";
 export const buildAcronym = "Search Engine Optimization";
+export const arrayDiff = {
+  arr1: ["I", "like", "freeCodeCamp"],
+  arr2: ["I", "like", "rocks"],
+};
 
 export const allUnique = "hola";
 export const costToFill = { tankSize: 20, fuelLevel: 0, pricePerGallon: 4.0 };

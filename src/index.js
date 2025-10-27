@@ -176,6 +176,11 @@ console.log(styleText("09-09-2025 - Unique characters"), {
   testCase: input.allUnique,
   output: challenge.allUnique(input.allUnique),
 });
+// 10-09-2025 - Array Diff
+console.log(styleText("10-09-2025 - Array Diff"), {
+  testCase: input.arrayDiff,
+  output: challenge.arrayDiff(input.arrayDiff.arr1, input.arrayDiff.arr2),
+});
 // 18-09-2025 - Fill The Tank.
 console.log(styleText("18-09-2025 - Fill The Tank"), {
   testCase: input.costToFill,
