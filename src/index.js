@@ -208,6 +208,11 @@ console.log(styleText("22-09-2025 - Digits vs Letters"), {
   testCase: input.digitsOrLetters,
   output: challenge.digitsOrLetters(input.digitsOrLetters),
 });
+// 23-09-2025 - String Mirror
+console.log(styleText("23-09-2025 - String Mirror"), {
+  testCase: input.isMirror,
+  output: challenge.isMirror(input.isMirror.str1, input.isMirror.str2),
+});
 // 24-09-2025 - Perfect square.
 console.log(styleText("24-09-2025 - Perfect square"), {
   testCase: input.isPerfectSquare,
