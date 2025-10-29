@@ -396,3 +396,9 @@ console.log(styleText("27-10-2025 - Integer Sequence"), {
   testCase: input.sequence,
   output: challenge.sequence(input.sequence),
 });
+
+//29-10-2025 - Email Sorter
+console.log(styleText("29-10-2025 - Email Sorter"), {
+  testCase: input.sort,
+  output: challenge.sort(input.sort),
+});
