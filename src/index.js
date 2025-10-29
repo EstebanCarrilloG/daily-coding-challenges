@@ -186,6 +186,12 @@ console.log(styleText("11-09-2025 - Reverse Sentence"), {
   testCase: input.reverseSentence,
   output: challenge.reverseSentence(input.reverseSentence),
 });
+// 12-09-2025 - Screen Time
+console.log(styleText("12-09-2025 - Screen Time"), {
+  testCase: input.tooMuchScreenTime,
+  output: challenge.tooMuchScreenTime(input.tooMuchScreenTime),
+});
+
 // 18-09-2025 - Fill The Tank.
 console.log(styleText("18-09-2025 - Fill The Tank"), {
   testCase: input.costToFill,
