@@ -120,7 +120,13 @@ export const dive = {
 export const complementaryDNA = "GGCTTACGATCGAAG";
 export const format = 99999;
 export const sequence = 10;
-
+export const navigate = [
+  "Visit About",
+  "Visit Gallery",
+  "Back",
+  "Visit Contact",
+  "Forward",
+];
 export const sort = [
   "simon@beta.com",
   "sammy@alpha.com",
