@@ -191,6 +191,11 @@ console.log(styleText("12-09-2025 - Screen Time"), {
   testCase: input.tooMuchScreenTime,
   output: challenge.tooMuchScreenTime(input.tooMuchScreenTime),
 });
+//13-09-2025 - Missing Numbers
+console.log(styleText("13-09-2025 - Missing Numbers"), {
+  testCase: input.findMissingNumbers,
+  output: challenge.findMissingNumbers(input.findMissingNumbers),
+});
 
 // 18-09-2025 - Fill The Tank.
 console.log(styleText("18-09-2025 - Fill The Tank"), {
