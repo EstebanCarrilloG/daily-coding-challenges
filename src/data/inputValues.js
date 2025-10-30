@@ -136,3 +136,4 @@ export const sort = [
   "Simone@Beta.com",
   "sara@alpha.com",
 ];
+export const nthPrime = 1000;

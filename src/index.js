@@ -412,3 +412,8 @@ console.log(styleText("29-10-2025 - Email Sorter"), {
   testCase: input.sort,
   output: challenge.sort(input.sort),
 });
+//30-10-2025 - Nth Prime
+console.log(styleText("30-10-2025 - Nth Prime"), {
+  testCase: input.nthPrime,
+  output: challenge.nthPrime(input.nthPrime),
+});
