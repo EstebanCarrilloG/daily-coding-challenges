@@ -196,6 +196,15 @@ console.log(styleText("13-09-2025 - Missing Numbers"), {
   testCase: input.findMissingNumbers,
   output: challenge.findMissingNumbers(input.findMissingNumbers),
 });
+//14
+//15-09-2025 - Thermostat Adjuster
+console.log(styleText("15-09-2025 - Thermostat Adjuster"), {
+  testCase: input.adjustThermostat2,
+  output: challenge.adjustThermostat2(
+    input.adjustThermostat2.temp,
+    input.adjustThermostat2.target
+  ),
+});
 
 // 18-09-2025 - Fill The Tank.
 console.log(styleText("18-09-2025 - Fill The Tank"), {

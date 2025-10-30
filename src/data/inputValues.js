@@ -57,6 +57,8 @@ export const tooMuchScreenTime = [1, 2, 3, 4, 5, 6, 7];
 export const findMissingNumbers = [
   1, 2, 3, 4, 5, 7, 8, 9, 10, 12, 6, 8, 9, 3, 2, 10, 7, 4,
 ];
+//14
+export const adjustThermostat2 = { temp: 68, target: 72 };
 
 export const allUnique = "hola";
 export const costToFill = { tankSize: 20, fuelLevel: 0, pricePerGallon: 4.0 };
