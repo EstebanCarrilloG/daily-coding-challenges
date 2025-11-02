@@ -142,3 +142,4 @@ export const sort = [
   "sara@alpha.com",
 ];
 export const nthPrime = 1000;
+export const spookify = "thE_hAUntEd-hOUsE-Is-fUll_Of_ghOsts";

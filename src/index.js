@@ -431,3 +431,8 @@ console.log(styleText("30-10-2025 - Nth Prime"), {
   testCase: input.nthPrime,
   output: challenge.nthPrime(input.nthPrime),
 });
+//21-10-2025 - SpOoKy~CaSe
+console.log(styleText("21-10-2025 - SpOoKy~CaSe"), {
+  testCase: input.spookify,
+  output: challenge.spookify(input.spookify),
+});
