@@ -10,26 +10,33 @@ The goal is to practice algorithms, problem-solving, and clean coding on a consi
 ```
 /src
  ├── challenges/
- │    ├── august-2025/
- |    │    ├── 11.js
- │    │    ├── 13.js
- │    │    ├── 14.js
- │    │    ├── ...
- │    │    └── index.js    #Exports all August challenges
- │    ├── september-2025/
- │    │    ├── 09.js
- │    │    ├── 18.js
- │    │    ├── 19.js
- │    │    ├── 24.js
- │    │    ├── ...
- │    │    └── index.js    #Exports all September challenges
- │    └── index.js         #Exports all monthly challenges
- ├── index.js              # Runs/aggregates challenges
+ │    ├── 2025/
+ │    │    ├── august/
+ │    │    │    ├── 11.js
+ │    │    │    ├── 13.js
+ │    │    │    ├── 14.js
+ │    │    │    ├── ...
+ │    │    │    └── index.js    # Exports all August challenges
+ │    │    ├── september/
+ │    │    │    ├── 9.js
+ │    │    │    ├── 18.js
+ │    │    │    ├── 19.js
+ │    │    │    ├── 24.js
+ │    │    │    ├── ...
+ │    │    │    └── index.js    # Exports all September challenges
+ │    │    └── index.js         # Exports all monthly challenges from year 2025
+ |    ├── 2026/
+ |    │    └── ...
+ |    └──  index.js             # Exports all yearly challenges
+ ├── index.js              # Runs challenges
+ ├── playground.test.js    # For quick tests/debugging
  └── playground.js         # For quick tests/debugging
+
 ```
 
-- Each file inside `challenges/<month-year>/` corresponds to one daily challenge.
+- Each file inside `challenges/<year>/<month>/` corresponds to one daily challenge.
 - Each month has its own `index.js` that exports that month’s challenges.
+- Each year has its own `index.js` that exports that year’s challenges.
 - The main `src/index.js` imports them and logs results with challenge names + dates.
 
 ---
@@ -90,10 +97,10 @@ console.log(styleText("13-08-2025 - Fibonacci sequence"), {
 ### Example Output
 
 ```bash
- • Callenges: August 2025 
- ▸ 11-08-2025 - Vowel Balance 
+ • Callenges: August 2025
+ ▸ 11-08-2025 - Vowel Balance
  { testCase: '123A#b!E&*456-o.U', output: true }
- ▸ 13-08-2025 - Fibonacci sequence 
+ ▸ 13-08-2025 - Fibonacci sequence
  {
   testCase: { startSequence: [ 21, 32 ], length: 10 },
   output: [

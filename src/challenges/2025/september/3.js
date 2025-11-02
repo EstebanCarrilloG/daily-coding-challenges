@@ -1,4 +1,4 @@
-import { removeDuplicates } from "../../utils/index.js";
+import { removeDuplicates } from "../../../utils/index.js";
 // Pangram
 /**
  * Checks if a given sentence is a pangram for a set of letters.
