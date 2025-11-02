@@ -436,3 +436,17 @@ console.log(styleText("21-10-2025 - SpOoKy~CaSe"), {
   testCase: input.spookify,
   output: challenge.spookify(input.spookify),
 });
+
+// ------------------------------------------------------------------------------------------
+// November 2025
+console.log(styleText("Callenges: November 2025", "heading"));
+
+// 01-11-2025 - Signature Validation
+console.log(styleText("01-11-2025 - Signature Validation"), {
+  testCase: input.verify,
+  output: challenge.verify(
+    input.verify.message,
+    input.verify.key,
+    input.verify.signature
+  ),
+});

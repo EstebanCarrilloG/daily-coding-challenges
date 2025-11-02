@@ -143,3 +143,11 @@ export const sort = [
 ];
 export const nthPrime = 1000;
 export const spookify = "thE_hAUntEd-hOUsE-Is-fUll_Of_ghOsts";
+
+// November 2025
+
+export const verify = {
+  message: "foo",
+  key: "bar",
+  signature: 57,
+};
