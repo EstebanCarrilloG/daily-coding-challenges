@@ -450,3 +450,9 @@ console.log(styleText("01-11-2025 - Signature Validation"), {
     input.verify.signature
   ),
 });
+
+// 03-11-2025 - Word Counter
+console.log(styleText("03-11-2025 - Word Counter"), {
+  testCase: input.countWords,
+  output: challenge.countWords(input.countWords),
+});
