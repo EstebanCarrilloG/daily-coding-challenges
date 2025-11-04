@@ -210,7 +210,11 @@ console.log(styleText("16-09-2025 - Sentence Capitalizer"), {
   testCase: input.capitalize,
   output: challenge.capitalize(input.capitalize),
 });
-
+// 17-09-2025 - Slug Generator
+console.log(styleText("17-09-2025 - Slug Generator"), {
+  testCase: input.generateSlug,
+  output: challenge.generateSlug(input.generateSlug),
+});
 // 18-09-2025 - Fill The Tank.
 console.log(styleText("18-09-2025 - Fill The Tank"), {
   testCase: input.costToFill,
