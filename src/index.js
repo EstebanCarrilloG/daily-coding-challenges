@@ -232,6 +232,15 @@ console.log(styleText("19-09-2025 - Photo Storage"), {
     input.numberOfPhotos.hardDriveSizeGb
   ),
 });
+// 20-09-2025 - File Storage
+console.log(styleText("20-09-2025 - File Storage"), {
+  testCase: input.numberOfFiles,
+  output: challenge.numberOfFiles(
+    input.numberOfFiles.fileSize,
+    input.numberOfFiles.fileUnit,
+    input.numberOfFiles.driveSizeGb
+  ),
+});
 // 22-09-2025 - Digits vs Letters
 console.log(styleText("22-09-2025 - Digits vs Letters"), {
   testCase: input.digitsOrLetters,

@@ -64,6 +64,11 @@ export const capitalize =
 export const generateSlug = "  ?H^3-1*1]0! W[0%R#1]D  ";
 export const allUnique = "hola";
 export const costToFill = { tankSize: 20, fuelLevel: 0, pricePerGallon: 4.0 };
+export const numberOfFiles = {
+  fileSize: 10,
+  fileUnit: "MB",
+  driveSizeGb: 1000,
+};
 export const numberOfPhotos = { photoSizeMb: 3.5, hardDriveSizeGb: 750 };
 export const digitsOrLetters = "a1b2c3d";
 export const isMirror = {
