@@ -28,3 +28,4 @@ export * from "./27.js";
 export * from "./28.js";
 export * from "./29.js";
 export * from "./30.js";
+export * from "./challengesTests.js";

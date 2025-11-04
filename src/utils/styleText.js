@@ -1,15 +1,24 @@
+import { styleText as st } from "node:util";
 /**
- * Returns a string with the given title styled according to the given type.
- * Types are "subHeading" and "heading". "subHeading" will return the title
- * styled with a bright cyan color, while "heading" will return the title styled
+ * Returns a string with the given text styled according to the given type.
+ * Types are "subHeading" and "heading". "subHeading" will return the text
+ * styled with a bright cyan color, while "heading" will return the text styled
  * with a bright yellow color and a bold font weight.
- * @param {string} title - The title to style.
- * @param {string} [type="subHeading"] - The type of styling to apply to the title.
- * @returns {string} The styled title string.
+ * @param {string} text - The text to style.
+ * @param {string} [type="subHeading"] - The type of styling to apply to the text.
+ * @returns {string} The styled text string.
  */
-export function styleText(title, type = "subHeading") {
-  if (type === "subHeading") {
-    return `\x1b[1;34m ▸ ${title} \x1b[0m\n`;
+export function styleText(text, type = "subHeading") {
+  switch (type) {
+    case "subHeading":
+      return st(["cyan"], `▸ ${text} \n`);
+    case "heading":
+      return st(["bgYellow", "green", "bold"], ` • ${text} \n`);
+    case "input":
+      return st(["bold", "italic", "whiteBright"], `• ${text}`, "reset");
+    case "paragraph":
+      return st(["whiteBright"], `${text} \n`);
+    default:
+      break;
   }
-  if (type === "heading") return `\n\x1b[1;34;43m • ${title} \x1b[0m`;
 }

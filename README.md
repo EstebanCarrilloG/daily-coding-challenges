@@ -16,19 +16,21 @@ The goal is to practice algorithms, problem-solving, and clean coding on a consi
  │    │    │    ├── 13.js
  │    │    │    ├── 14.js
  │    │    │    ├── ...
- │    │    │    └── index.js    # Exports all August challenges
+ │    │    │    ├── challengesTests.js     # Runs tests for all August challenges
+ │    │    │    └── index.js               # Exports all August challenges
  │    │    ├── september/
  │    │    │    ├── 9.js
  │    │    │    ├── 18.js
  │    │    │    ├── 19.js
  │    │    │    ├── 24.js
  │    │    │    ├── ...
- │    │    │    └── index.js    # Exports all September challenges
+ │    │    │    ├── challengesTests.js     # Runs tests for all september challenges
+ │    │    │    └── index.js               # Exports all September challenges
  │    │    └── index.js         # Exports all monthly challenges from year 2025
  |    ├── 2026/
  |    │    └── ...
  |    └──  index.js             # Exports all yearly challenges
- ├── index.js              # Runs challenges
+ ├── index.js              # Runs challenges tests depending of the user election
  ├── playground.test.js    # For quick tests/debugging
  └── playground.js         # For quick tests/debugging
 
@@ -37,7 +39,7 @@ The goal is to practice algorithms, problem-solving, and clean coding on a consi
 - Each file inside `challenges/<year>/<month>/` corresponds to one daily challenge.
 - Each month has its own `index.js` that exports that month’s challenges.
 - Each year has its own `index.js` that exports that year’s challenges.
-- The main `src/index.js` imports them and logs results with challenge names + dates.
+- The main `src/index.js` file runs the selected challenges tests depending on the user election.
 
 ---
 
@@ -73,28 +75,26 @@ Runs the playground script using nodemon on `src/playground.js`.
 
 ## 🧑‍💻 Usage
 
-By default, `src/index.js` executes the selected challenges.  
-For example:
+`src/index.js` runs all the challenges tests or only the selected depending of the user election.
 
-```js
-console.log(styleText("Callenges: August 2025", "heading"));
+Once you run `npm run start` you will be prompted.
 
-// 11-08-2025 - Vowel balance.
-console.log(styleText("11-08-2025 - Vowel Balance"), {
-  testCase: input.vowelBalance,
-  output: challenge.isBalanced(input.vowelBalance),
-});
-// 13-08-2025 - Fibonacci sequence.
-console.log(styleText("13-08-2025 - Fibonacci sequence"), {
-  testCase: input.fibonacciSequence,
-  output: challenge.fibonacciSequence(
-    input.fibonacciSequence.startSequence,
-    input.fibonacciSequence.length
-  ),
-});
+```bash
+ • Hello! Welcome to the Coding Challenges!
+
+Here you can see the challenges tests for the given month and year.
+Start by entering the month and year of your choice.
+Note: The challenges starts from August 2025.
+
+• Enter the month:
+• Enter the year:
 ```
 
+You should provide a valid month `[january, february, ... ] || all` and year `>= 2025`.
+
 ### Example Output
+
+For August 2025.
 
 ```bash
  • Callenges: August 2025
