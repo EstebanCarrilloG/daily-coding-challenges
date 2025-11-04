@@ -59,6 +59,8 @@ export const findMissingNumbers = [
 ];
 //14
 export const adjustThermostat2 = { temp: 68, target: 72 };
+export const capitalize =
+  "there's a space before this period . why is there a space before that period ?";
 
 export const allUnique = "hola";
 export const costToFill = { tankSize: 20, fuelLevel: 0, pricePerGallon: 4.0 };

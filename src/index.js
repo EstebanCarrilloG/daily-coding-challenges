@@ -205,6 +205,11 @@ console.log(styleText("15-09-2025 - Thermostat Adjuster"), {
     input.adjustThermostat2.target
   ),
 });
+// 16-09-2025 - Sentence Capitalizer
+console.log(styleText("16-09-2025 - Sentence Capitalizer"), {
+  testCase: input.capitalize,
+  output: challenge.capitalize(input.capitalize),
+});
 
 // 18-09-2025 - Fill The Tank.
 console.log(styleText("18-09-2025 - Fill The Tank"), {
