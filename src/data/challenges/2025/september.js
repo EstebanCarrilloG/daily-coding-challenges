@@ -35,6 +35,12 @@ export const numberOfFiles = {
   fileUnit: "MB",
   driveSizeGb: 1000,
 };
+export const numberOfVideos = {
+  videoSize: 500000,
+  videoUnit: "KB",
+  driveSize: 2,
+  driveUnit: "TB",
+};
 export const numberOfPhotos = { photoSizeMb: 3.5, hardDriveSizeGb: 750 };
 export const digitsOrLetters = "a1b2c3d";
 export const isMirror = {

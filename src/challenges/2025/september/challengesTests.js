@@ -122,6 +122,16 @@ export function challengesTests() {
       input.numberOfFiles.driveSizeGb
     ),
   });
+  // 21-09-2025 - Video Storage
+  console.log(styleText("21-09-2025 - Video Storage"), {
+    testCase: input.numberOfVideos,
+    output: challenge.numberOfVideos(
+      input.numberOfVideos.videoSize,
+      input.numberOfVideos.videoUnit,
+      input.numberOfVideos.driveSize,
+      input.numberOfVideos.driveUnit
+    ),
+  });
   // 22-09-2025 - Digits vs Letters
   console.log(styleText("22-09-2025 - Digits vs Letters"), {
     testCase: input.digitsOrLetters,
