@@ -20,4 +20,12 @@ export function challengesTests() {
     testCase: input.countWords,
     output: challenge.countWords(input.countWords),
   });
+  // 04-11-2025 - Image Search
+  console.log(styleText("04-11-2025 - Image Search"), {
+    testCase: input.imageSearch,
+    output: challenge.imageSearch(
+      input.imageSearch.images,
+      input.imageSearch.searchTerm
+    ),
+  });
 }
