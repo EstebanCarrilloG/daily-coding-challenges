@@ -5,7 +5,6 @@ export const verify = {
 };
 
 export const countWords = "The missing semi-colon crashed the entire internet.";
-
 export const imageSearch = {
   images: [
     "cat.jpg",
@@ -15,4 +14,8 @@ export const imageSearch = {
     "franken_cat.gif",
   ],
   searchTerm: "Cat",
+};
+export const buildMatrix = {
+  rows: 3,
+  cols: 5,
 };

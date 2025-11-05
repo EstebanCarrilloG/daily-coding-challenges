@@ -28,4 +28,12 @@ export function challengesTests() {
       input.imageSearch.searchTerm
     ),
   });
+  // 05-11-2025 - Matrix Builder
+  console.log(styleText("05-11-2025 - Matrix Builder"), {
+    testCase: input.buildMatrix,
+    output: challenge.buildMatrix(
+      input.buildMatrix.rows,
+      input.buildMatrix.cols
+    ),
+  });
 }
