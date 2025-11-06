@@ -36,4 +36,9 @@ export function challengesTests() {
       input.buildMatrix.cols
     ),
   });
+  // 06-11-2025 - Weekday Finder
+  console.log(styleText("06-11-2025 - Weekday Finder"), {
+    testCase: input.getWeekday,
+    output: challenge.getWeekday(input.getWeekday),
+  });
 }

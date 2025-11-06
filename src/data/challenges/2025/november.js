@@ -19,3 +19,4 @@ export const buildMatrix = {
   rows: 3,
   cols: 5,
 };
+export const getWeekday = "2025-11-01";
