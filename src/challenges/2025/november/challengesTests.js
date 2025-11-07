@@ -41,4 +41,9 @@ export function challengesTests() {
     testCase: input.getWeekday,
     output: challenge.getWeekday(input.getWeekday),
   });
+  // 07-11-2025 - Counting Cards
+  console.log(styleText("07-11-2025 - Counting Cards"), {
+    testCase: input.combinations,
+    output: challenge.combinations(input.combinations),
+  });
 }
