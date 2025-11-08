@@ -46,4 +46,9 @@ export function challengesTests() {
     testCase: input.combinations,
     output: challenge.combinations(input.combinations),
   });
+  // 08-11-2025 - Character Limit
+  console.log(styleText("08-11-2025 - Character Limit"), {
+    testCase: input.canPost,
+    output: challenge.canPost(input.canPost),
+  });
 }

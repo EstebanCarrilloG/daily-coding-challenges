@@ -21,3 +21,4 @@ export const buildMatrix = {
 };
 export const getWeekday = "2025-11-01";
 export const combinations = 5;
+export const canPost = "I am a string. I am a string. I am a string.";
