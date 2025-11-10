@@ -51,4 +51,10 @@ export function challengesTests() {
     testCase: input.canPost,
     output: challenge.canPost(input.canPost),
   });
+
+  // 10-11-2025 - Extension Extractor
+  console.log(styleText("10-11-2025 - Extension Extractor"), {
+    testCase: input.getExtension,
+    output: challenge.getExtension(input.getExtension),
+  });
 }
