@@ -57,4 +57,9 @@ export function challengesTests() {
     testCase: input.getExtension,
     output: challenge.getExtension(input.getExtension),
   });
+  // 11-11-2025 - Vowels and Consonants
+  console.log(styleText("11-11-2025 - Vowels and Consonants"), {
+    testCase: input.count2,
+    output: challenge.count2(input.count2),
+  });
 }
