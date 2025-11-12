@@ -62,4 +62,13 @@ export function challengesTests() {
     testCase: input.count2,
     output: challenge.count2(input.count2),
   });
+  // 12-11-2025 - Email Signature Generator
+  console.log(styleText("12-11-2025 - Email Signature Generator"), {
+    testCase: input.generateSignature,
+    output: challenge.generateSignature(
+      input.generateSignature.name,
+      input.generateSignature.title,
+      input.generateSignature.company
+    ),
+  });
 }

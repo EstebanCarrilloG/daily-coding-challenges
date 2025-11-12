@@ -24,5 +24,9 @@ export const combinations = 5;
 export const canPost = "I am a string. I am a string. I am a string.";
 
 export const getExtension = "archive.tar.gz";
-
 export const count2 = "abracadabra";
+export const generateSignature = {
+  name: "Tina Vaughn",
+  title: "Developer",
+  company: "example.com",
+};
