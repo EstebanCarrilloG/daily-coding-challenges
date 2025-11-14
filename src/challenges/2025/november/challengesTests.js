@@ -71,4 +71,10 @@ export function challengesTests() {
       input.generateSignature.company
     ),
   });
+
+  // 14-11-2025 - Is It the Weekend?
+  console.log(styleText("14-11-2025 - Is It the Weekend?"), {
+    testCase: input.daysUntilWeekend,
+    output: challenge.daysUntilWeekend(input.daysUntilWeekend),
+  });
 }

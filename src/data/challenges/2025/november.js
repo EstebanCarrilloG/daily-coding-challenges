@@ -30,3 +30,5 @@ export const generateSignature = {
   title: "Developer",
   company: "example.com",
 };
+
+export const daysUntilWeekend = "2025-11-14";
