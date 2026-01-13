@@ -101,4 +101,10 @@ export function challengesTests() {
       input.isMatch.fingerprintB
     ),
   });
+
+  // 18-11-2025 - 100 Characters
+  console.log(styleText("18-11-2025 - 100 Characters"), {
+    testCase: input.oneHundred,
+    output: challenge.oneHundred(input.oneHundred),
+  });
 }

@@ -41,3 +41,4 @@ export const isMatch = {
   fingerprintA: "thequickbrownfoxjumpsoverthelazydog",
   fingerprintB: "thequickbrownfoxjumpsoverthehazycat",
 };
+export const oneHundred = "One hundred ";
