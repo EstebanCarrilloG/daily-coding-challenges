@@ -43,3 +43,4 @@ export const isMatch = {
 };
 export const oneHundred = "One hundred ";
 export const convert = "  ### My level 3 heading";
+export const longestWord = "Wouldn't you like to know.";

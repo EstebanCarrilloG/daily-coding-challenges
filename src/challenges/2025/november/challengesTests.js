@@ -113,4 +113,10 @@ export function challengesTests() {
     testCase: input.convert,
     output: challenge.convert(input.convert),
   });
+
+  // 20-11-2025 - Longest Word
+  console.log(styleText("20-11-2025 - Longest Word"), {
+    testCase: input.longestWord,
+    output: challenge.longestWord(input.longestWord),
+  });
 }
