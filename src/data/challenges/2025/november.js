@@ -45,3 +45,7 @@ export const oneHundred = "One hundred ";
 export const convert = "  ### My level 3 heading";
 export const longestWord = "Wouldn't you like to know.";
 export const lcm = { a: 4, b: 6 };
+export const scaleRecipe = {
+  ingredients: ["2 C Flour", "1.5 T Sugar"],
+  scale: 2,
+};

@@ -129,4 +129,12 @@ export function challengesTests() {
     testCase: input.lcm,
     output: challenge.lcm(input.lcm.a, input.lcm.b),
   });
+  //22-11-2025 - Recipe Scaler
+  console.log(styleText("22-11-2025 - Recipe Scaler"), {
+    testCase: input.scaleRecipe,
+    output: challenge.scaleRecipe(
+      input.scaleRecipe.ingredients,
+      input.scaleRecipe.scale
+    ),
+  });
 }
