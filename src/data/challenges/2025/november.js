@@ -54,3 +54,4 @@ export const isValidMessage = {
   message: "The quick brown fox jumps over the lazy dog.",
   validator: "TQBFJOTLD",
 };
+export const fizzBuzz = 15;

@@ -150,4 +150,9 @@ export function challengesTests() {
       input.isValidMessage.validator
     ),
   });
+  //25-11-2025 - Fizz Buzz
+  console.log(styleText("25-11-2025 - Fizz Buzz"), {
+    testCase: input.fizzBuzz,
+    output: challenge.fizzBuzz(input.fizzBuzz),
+  });
 }
