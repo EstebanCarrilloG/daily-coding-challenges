@@ -119,4 +119,10 @@ export function challengesTests() {
     testCase: input.longestWord,
     output: challenge.longestWord(input.longestWord),
   });
+
+  // 21-11-2025 - LCM
+  console.log(styleText("21-11-2025 - LCM"), {
+    testCase: input.lcm,
+    output: challenge.lcm(input.lcm.a, input.lcm.b),
+  });
 }
