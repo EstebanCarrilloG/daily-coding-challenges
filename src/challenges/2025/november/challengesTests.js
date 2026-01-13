@@ -83,4 +83,13 @@ export function challengesTests() {
     testCase: input.gcd,
     output: challenge.gcd(input.gcd.x, input.gcd.y),
   });
+
+  // 16-11-2025 - Rectangle Count
+  console.log(styleText("16-11-2025 - Rectangle Count"), {
+    testCase: input.countRectangles,
+    output: challenge.countRectangles(
+      input.countRectangles.width,
+      input.countRectangles.height
+    ),
+  });
 }

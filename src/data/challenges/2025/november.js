@@ -36,3 +36,4 @@ export const gcd = {
   x: 654,
   y: 456,
 };
+export const countRectangles = { width: 11, height: 19 };
