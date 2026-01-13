@@ -77,4 +77,10 @@ export function challengesTests() {
     testCase: input.daysUntilWeekend,
     output: challenge.daysUntilWeekend(input.daysUntilWeekend),
   });
+
+  // 15-11-2025 - GCD
+  console.log(styleText("15-11-2025 - GCD"), {
+    testCase: input.gcd,
+    output: challenge.gcd(input.gcd.x, input.gcd.y),
+  });
 }

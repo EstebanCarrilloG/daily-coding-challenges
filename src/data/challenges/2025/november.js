@@ -32,3 +32,7 @@ export const generateSignature = {
 };
 
 export const daysUntilWeekend = "2025-11-14";
+export const gcd = {
+  x: 654,
+  y: 456,
+};
