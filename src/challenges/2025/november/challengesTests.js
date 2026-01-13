@@ -92,4 +92,13 @@ export function challengesTests() {
       input.countRectangles.height
     ),
   });
+
+  //17-11-2025 - Fingerprint Test
+  console.log(styleText("17-11-2025 - Fingerprint Test"), {
+    testCase: input.isMatch,
+    output: challenge.isMatch(
+      input.isMatch.fingerprintA,
+      input.isMatch.fingerprintB
+    ),
+  });
 }

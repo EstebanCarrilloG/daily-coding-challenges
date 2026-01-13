@@ -37,3 +37,7 @@ export const gcd = {
   y: 456,
 };
 export const countRectangles = { width: 11, height: 19 };
+export const isMatch = {
+  fingerprintA: "thequickbrownfoxjumpsoverthelazydog",
+  fingerprintB: "thequickbrownfoxjumpsoverthehazycat",
+};
