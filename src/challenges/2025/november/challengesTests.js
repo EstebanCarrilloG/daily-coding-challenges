@@ -107,4 +107,10 @@ export function challengesTests() {
     testCase: input.oneHundred,
     output: challenge.oneHundred(input.oneHundred),
   });
+
+  // 19-11-2025 - Markdown Heading Converter
+  console.log(styleText("19-11-2025 - Markdown Heading Converter"), {
+    testCase: input.convert,
+    output: challenge.convert(input.convert),
+  });
 }
