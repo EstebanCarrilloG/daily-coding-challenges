@@ -137,4 +137,9 @@ export function challengesTests() {
       input.scaleRecipe.scale
     ),
   });
+  //23-11-2025 - Character Counter
+  console.log(styleText("23-11-2025 - Character Counter"), {
+    testCase: input.countCharacters,
+    output: challenge.countCharacters(input.countCharacters),
+  });
 }

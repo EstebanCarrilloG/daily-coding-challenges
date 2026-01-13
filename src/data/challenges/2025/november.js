@@ -49,3 +49,4 @@ export const scaleRecipe = {
   ingredients: ["2 C Flour", "1.5 T Sugar"],
   scale: 2,
 };
+export const countCharacters = "// TODO: Complete this challenge ASAP!";
