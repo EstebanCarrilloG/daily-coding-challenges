@@ -71,7 +71,11 @@ export function challengesTests() {
       input.generateSignature.company
     ),
   });
-
+  //13-11-2025 - Array Shift
+  console.log(styleText("13-11-2025 - Array Shift"), {
+    testCase: input.shiftArray,
+    output: challenge.shiftArray(input.shiftArray.arr, input.shiftArray.n),
+  });
   // 14-11-2025 - Is It the Weekend?
   console.log(styleText("14-11-2025 - Is It the Weekend?"), {
     testCase: input.daysUntilWeekend,

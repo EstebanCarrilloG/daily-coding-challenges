@@ -30,7 +30,7 @@ export const generateSignature = {
   title: "Developer",
   company: "example.com",
 };
-
+export const shiftArray = { arr: ["alpha", "bravo", "charlie"], n: -11 };
 export const daysUntilWeekend = "2025-11-14";
 export const gcd = {
   x: 654,
