@@ -50,3 +50,7 @@ export const scaleRecipe = {
   scale: 2,
 };
 export const countCharacters = "// TODO: Complete this challenge ASAP!";
+export const isValidMessage = {
+  message: "The quick brown fox jumps over the lazy dog.",
+  validator: "TQBFJOTLD",
+};

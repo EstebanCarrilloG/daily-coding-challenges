@@ -142,4 +142,12 @@ export function challengesTests() {
     testCase: input.countCharacters,
     output: challenge.countCharacters(input.countCharacters),
   });
+  //24-11-2025 - Message Validator
+  console.log(styleText("24-11-2025 - Message Validator"), {
+    testCase: input.isValidMessage,
+    output: challenge.isValidMessage(
+      input.isValidMessage.message,
+      input.isValidMessage.validator
+    ),
+  });
 }
