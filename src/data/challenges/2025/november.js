@@ -55,3 +55,4 @@ export const isValidMessage = {
   validator: "TQBFJOTLD",
 };
 export const fizzBuzz = 15;
+export const isFizzBuzz = ["Fizz", 2, "Fizz", 4, "Buzz", "Fizz", 7, 8];

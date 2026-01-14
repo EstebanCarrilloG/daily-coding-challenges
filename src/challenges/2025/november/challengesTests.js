@@ -155,4 +155,9 @@ export function challengesTests() {
     testCase: input.fizzBuzz,
     output: challenge.fizzBuzz(input.fizzBuzz),
   });
+  //26-11-2025 - BuzzFizz
+  console.log(styleText("26-11-2025 - BuzzFizz"), {
+    testCase: input.isFizzBuzz,
+    output: challenge.isFizzBuzz(input.isFizzBuzz),
+  });
 }

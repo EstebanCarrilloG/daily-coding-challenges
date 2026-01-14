@@ -23,4 +23,5 @@ export * from "./22.js";
 export * from "./23.js";
 export * from "./24.js";
 export * from "./25.js";
+export * from "./26.js";
 export * from "./challengesTests.js";
