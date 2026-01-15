@@ -9,7 +9,5 @@ export function toSnake(camel) {
     snake_string += camel[i].toLowerCase();
     if (isUpperCase(camel[i + 1])) snake_string += "_";
   }
-
-  console.log(snake_string);
   return snake_string;
 }
