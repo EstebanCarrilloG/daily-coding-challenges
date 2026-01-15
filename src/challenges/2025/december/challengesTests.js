@@ -15,4 +15,9 @@ export function challengesTests() {
     testCase: input.toSnake,
     output: challenge.toSnake(input.toSnake),
   });
+  //03-12-2025 - Markdown Ordered List Item Converter
+  console.log(styleText("03-12-2025 - Markdown Ordered List Item Converter"), {
+    testCase: input.convertListItem,
+    output: challenge.convertListItem(input.convertListItem),
+  });
 }
