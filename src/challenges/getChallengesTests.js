@@ -14,6 +14,8 @@ export function getChallengesTests(month, year) {
       case "november":
         challenges2025.november.challengesTests();
         break;
+      case "december":
+        challenges2025.december.challengesTests();
       default:
         console.warnfebru("No data found for the given month.");
         break;
@@ -24,5 +26,6 @@ export function getChallengesTests(month, year) {
     challenges2025.september.challengesTests();
     challenges2025.october.challengesTests();
     challenges2025.november.challengesTests();
+    challenges2025.december.challengesTests();
   }
 }
