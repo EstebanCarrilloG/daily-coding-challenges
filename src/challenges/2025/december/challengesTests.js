@@ -10,4 +10,9 @@ export function challengesTests() {
     testCase: input.convertToKm,
     output: challenge.convertToKm(input.convertToKm),
   });
+  //02-12-2025 - Camel to Snake
+  console.log(styleText("02-12-2025 - Camel to Snake"), {
+    testCase: input.toSnake,
+    output: challenge.toSnake(input.toSnake),
+  });
 }
