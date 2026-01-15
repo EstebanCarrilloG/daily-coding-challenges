@@ -160,4 +160,9 @@ export function challengesTests() {
     testCase: input.isFizzBuzz,
     output: challenge.isFizzBuzz(input.isFizzBuzz),
   });
+  //27-11-2025 - What's My Age Again?
+  console.log(styleText("27-11-2025 - What's My Age Again?"), {
+    testCase: input.calculateAge,
+    output: challenge.calculateAge(input.calculateAge),
+  });
 }
