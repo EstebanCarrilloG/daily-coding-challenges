@@ -31,4 +31,10 @@ export function challengesTests() {
     testCase: input.formatDate,
     output: challenge.formatDate(input.formatDate),
   });
+
+  //08-12-2025 - Pounds to Kilograms
+  console.log(styleText("08-12-2025 - Pounds to Kilograms"), {
+    testCase: input.convertToKgs,
+    output: challenge.convertToKgs(input.convertToKgs),
+  });
 }
