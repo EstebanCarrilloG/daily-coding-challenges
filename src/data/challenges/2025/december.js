@@ -9,3 +9,4 @@ export const difference = {
 export const formatDate = "September 7, 512";
 
 export const convertToKgs = 100;
+export const mostFrequent = [40, 20, 70, 30, 10, 40, 10, 50, 40, 60];

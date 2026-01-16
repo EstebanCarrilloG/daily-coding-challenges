@@ -37,4 +37,9 @@ export function challengesTests() {
     testCase: input.convertToKgs,
     output: challenge.convertToKgs(input.convertToKgs),
   });
+  //09-12-2025 - Most Frequent
+  console.log(styleText("09-12-2025 - Most Frequent"), {
+    testCase: input.mostFrequent,
+    output: challenge.mostFrequent(input.mostFrequent),
+  });
 }
