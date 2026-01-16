@@ -26,4 +26,9 @@ export function challengesTests() {
     testCase: input.difference,
     output: challenge.difference(input.difference.arr1, input.difference.arr2),
   });
+  //06-12-2025 - Date Formatter
+  console.log(styleText("06-12-2025 - Date Formatter"), {
+    testCase: input.formatDate,
+    output: challenge.formatDate(input.formatDate),
+  });
 }
