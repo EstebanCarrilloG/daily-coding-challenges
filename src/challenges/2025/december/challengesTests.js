@@ -20,4 +20,10 @@ export function challengesTests() {
     testCase: input.convertListItem,
     output: challenge.convertListItem(input.convertListItem),
   });
+
+  //05-12-2025 - Symmetric Difference
+  console.log(styleText("05-12-2025 - Symmetric Difference"), {
+    testCase: input.difference,
+    output: challenge.difference(input.difference.arr1, input.difference.arr2),
+  });
 }
