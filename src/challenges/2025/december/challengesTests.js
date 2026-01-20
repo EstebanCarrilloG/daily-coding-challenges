@@ -42,4 +42,9 @@ export function challengesTests() {
     testCase: input.mostFrequent,
     output: challenge.mostFrequent(input.mostFrequent),
   });
+  //10-12-2025 - Markdown Bold Parser
+  console.log(styleText("10-12-2025 - Markdown Bold Parser"), {
+    testCase: input.parseBold,
+    output: challenge.parseBold(input.parseBold),
+  });
 }
