@@ -47,4 +47,9 @@ export function challengesTests() {
     testCase: input.parseBold,
     output: challenge.parseBold(input.parseBold),
   });
+  //11-12-2025 - Roman Numeral Builder
+  console.log(styleText("11-12-2025 - Roman Numeral Builder"), {
+    testCase: input.toRoman,
+    output: challenge.toRoman(input.toRoman),
+  });
 }
