@@ -13,3 +13,14 @@ export const mostFrequent = [40, 20, 70, 30, 10, 40, 10, 50, 40, 60];
 export const parseBold =
   "The **quick** brown fox __jumps__ over the **lazy** dog.";
 export const toRoman = 3999;
+export const updateInventory = {
+  inventory: [
+    [2, "apples"],
+    [5, "bananas"],
+  ],
+  shipment: [
+    [1, "apples"],
+    [3, "bananas"],
+    [4, "oranges"],
+  ],
+};

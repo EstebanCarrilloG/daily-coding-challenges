@@ -52,4 +52,12 @@ export function challengesTests() {
     testCase: input.toRoman,
     output: challenge.toRoman(input.toRoman),
   });
+  //12-12-2025 - Inventory Update
+  console.log(styleText("12-12-2025 - Inventory Update"), {
+    testCase: input.updateInventory,
+    output: challenge.updateInventory(
+      input.updateInventory.inventory,
+      input.updateInventory.shipment,
+    ),
+  });
 }
