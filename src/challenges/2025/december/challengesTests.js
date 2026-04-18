@@ -65,5 +65,11 @@ export function challengesTests() {
     testCase: input.gameOfLife,
     output: challenge.gameOfLife(input.gameOfLife),
   });
+  //14-12-2025 - Title Case
+  console.log(styleText("14-12-2025 - Title Case"), {
+    testCase: input.titleCase,
+    output: challenge.titleCase(input.titleCase),
+  });
+
 
 }
