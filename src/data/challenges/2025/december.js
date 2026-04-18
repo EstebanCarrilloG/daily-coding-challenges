@@ -30,4 +30,8 @@ export const gameOfLife = [
   [0, 1, 0]
 ];
 export const titleCase = "the quick brown fox";
+export const speedCheck = {
+  speedMph: 65,
+  speedLimitKph: 80
+};
 

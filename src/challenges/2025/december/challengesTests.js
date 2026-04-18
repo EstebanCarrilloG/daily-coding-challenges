@@ -70,6 +70,11 @@ export function challengesTests() {
     testCase: input.titleCase,
     output: challenge.titleCase(input.titleCase),
   });
+  //15-15-2025 - Speed Check
+  console.log(styleText("15-15-2025 - Speed Check"), {
+    testCase: { speedMph: input.speedCheck.speedMph, speedLimitKph: input.speedCheck.speedLimitKph },
+    output: challenge.speedCheck(input.speedCheck.speedMph, input.speedCheck.speedLimitKph),
+  });
 
 
 }
