@@ -24,3 +24,9 @@ export const updateInventory = {
     [4, "oranges"],
   ],
 };
+export const gameOfLife = [
+  [0, 1, 0],
+  [0, 1, 0],
+  [0, 1, 0]
+];
+

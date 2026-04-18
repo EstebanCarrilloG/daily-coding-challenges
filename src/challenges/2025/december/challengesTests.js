@@ -60,4 +60,10 @@ export function challengesTests() {
       input.updateInventory.shipment,
     ),
   });
+  //13-12-2025 - Game of Life
+  console.log(styleText("13-12-2025 - Game of Life"), {
+    testCase: input.gameOfLife,
+    output: challenge.gameOfLife(input.gameOfLife),
+  });
+
 }
