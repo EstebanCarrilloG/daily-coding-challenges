@@ -75,6 +75,11 @@ export function challengesTests() {
     testCase: { speedMph: input.speedCheck.speedMph, speedLimitKph: input.speedCheck.speedLimitKph },
     output: challenge.speedCheck(input.speedCheck.speedMph, input.speedCheck.speedLimitKph),
   });
+  //16-12-2025 - Consonant Count
+  console.log(styleText("16-12-2025 - Consonant Count"), {
+    testCase: { text: input.consonantCount.text, target: input.consonantCount.target },
+    output: challenge.hasConsonantCount(input.consonantCount.text, input.consonantCount.target),
+  });
 
 
 }

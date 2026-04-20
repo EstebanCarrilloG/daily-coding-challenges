@@ -34,4 +34,8 @@ export const speedCheck = {
   speedMph: 65,
   speedLimitKph: 80
 };
+export const consonantCount = {
+  text: "Hello, World!",
+  target: 7
+};
 
