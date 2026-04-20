@@ -45,3 +45,4 @@ export const pairwise = {
   target: 10
 };
 export const purgeMostFrequent = ["a", "b", "d", "b", "c", "d", "c", "d", "c", "d"]
+export const daylightHours = 88;

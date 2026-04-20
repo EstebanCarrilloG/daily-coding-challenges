@@ -96,4 +96,10 @@ export function challengesTests() {
     testCase: input.purgeMostFrequent,
     output: challenge.purgeMostFrequent(input.purgeMostFrequent),
   });
+  //21-12-2025 - Daylight Hours
+  console.log(styleText("21-12-2025 - Daylight Hours"), {
+    testCase: input.daylightHours,
+    output: challenge.daylightHours(input.daylightHours),
+  });
+
 }
