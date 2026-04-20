@@ -6,7 +6,7 @@ export function challengesTests() {
   console.log(styleText("Challenges: December 2025", "heading"));
 
   //01-12-2025 - Miles to Kilometers
-  console.log(styleText("01-11-2025 - Miles to Kilometers"), {
+  console.log(styleText("01-12-2025 - Miles to Kilometers"), {
     testCase: input.convertToKm,
     output: challenge.convertToKm(input.convertToKm),
   });
@@ -70,8 +70,8 @@ export function challengesTests() {
     testCase: input.titleCase,
     output: challenge.titleCase(input.titleCase),
   });
-  //15-15-2025 - Speed Check
-  console.log(styleText("15-15-2025 - Speed Check"), {
+  //15-12-2025 - Speed Check
+  console.log(styleText("15-12-2025 - Speed Check"), {
     testCase: { speedMph: input.speedCheck.speedMph, speedLimitKph: input.speedCheck.speedLimitKph },
     output: challenge.speedCheck(input.speedCheck.speedMph, input.speedCheck.speedLimitKph),
   });
