@@ -71,6 +71,14 @@ Runs the app using nodemon on `src/index.js`.
 
 Runs the playground script using nodemon on `src/playground.js`.
 
+#### `npm run ui`
+
+Runs a local web UI at `http://127.0.0.1:4000` with a calendar view to browse challenges and open each day solution.
+
+#### `npm run ui:dev`
+
+Runs the same UI server using nodemon for development.
+
 ---
 
 ## 🧑‍💻 Usage
@@ -110,6 +118,15 @@ For August 2025.
   ]
 }
 ```
+
+### Calendar UI
+
+To visualize solutions in a cleaner way using a calendar:
+
+1. Run `npm run ui`
+2. Open `http://127.0.0.1:4000` in your browser
+3. Select year and month
+4. Click a day with a challenge to see the solution source code
 
 ---
 
