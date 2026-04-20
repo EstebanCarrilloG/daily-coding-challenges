@@ -44,3 +44,4 @@ export const pairwise = {
   arr: [2, 3, 4, 6, 8],
   target: 10
 };
+export const purgeMostFrequent = ["a", "b", "d", "b", "c", "d", "c", "d", "c", "d"]

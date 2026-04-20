@@ -91,4 +91,9 @@ export function challengesTests() {
     testCase: { arr: input.pairwise.arr, target: input.pairwise.target },
     output: challenge.pairwise(input.pairwise.arr, input.pairwise.target),
   });
+  //20-12-2025 - Purge Most Frequent
+  console.log(styleText("20-12-2025 - Purge Most Frequent"), {
+    testCase: input.purgeMostFrequent,
+    output: challenge.purgeMostFrequent(input.purgeMostFrequent),
+  });
 }
