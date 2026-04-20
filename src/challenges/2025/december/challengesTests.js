@@ -81,5 +81,9 @@ export function challengesTests() {
     output: challenge.hasConsonantCount(input.consonantCount.text, input.consonantCount.target),
   });
 
-
+  //18-12-2025 - Checkerboard
+  console.log(styleText("18-12-2025 - Checkerboard"), {
+    testCase: input.createBoard,
+    output: challenge.createBoard(input.createBoard),
+  });
 }

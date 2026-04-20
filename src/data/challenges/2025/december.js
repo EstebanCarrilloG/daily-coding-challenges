@@ -39,3 +39,4 @@ export const consonantCount = {
   target: 7
 };
 
+export const createBoard = [3, 7];
