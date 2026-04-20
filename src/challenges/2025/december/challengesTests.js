@@ -86,4 +86,9 @@ export function challengesTests() {
     testCase: input.createBoard,
     output: challenge.createBoard(input.createBoard),
   });
+  //19-12-2025 - Pairwise
+  console.log(styleText("19-12-2025 - Pairwise"), {
+    testCase: { arr: input.pairwise.arr, target: input.pairwise.target },
+    output: challenge.pairwise(input.pairwise.arr, input.pairwise.target),
+  });
 }

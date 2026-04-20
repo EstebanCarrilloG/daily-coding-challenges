@@ -40,3 +40,7 @@ export const consonantCount = {
 };
 
 export const createBoard = [3, 7];
+export const pairwise = {
+  arr: [2, 3, 4, 6, 8],
+  target: 10
+};
